@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap');
+
+.tabs
+{
+    width: max-content;
+    margin: calc((100vh - 542.4px) /2) auto 0;
+    height: 100vh;
+}
+.tabs__article
+{
+    /* width: 1170px; */
+    width: max-content;
+    border: 1px solid #C6CBCD;
+}
+.tabs__article section
+{
+    display: inline-block;
+    width: 570px;
+    margin-left: 100px;
+    /* border: 1px solid #F00; */
+}
+.tabs__article h3
+{
+    height: 124px;
+    line-height: 124px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    margin-bottom: 27px;
+}
+.tabs__article h5
+{
+    height: 210px;
+    line-height: 21.13px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    margin-bottom: 27px;
+}
+.tabs__article button
+{
+    height: 58px;
+    width: 270px;
+    background-color: #EC7979;
+    color:#fff;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    text-align: center;
+    border:none;
+    cursor: pointer;
+}
+img
+{
+    margin-right: -4px;
+    vertical-align: top;
+    margin-left: 30px;
+    /* inline элементы воспринимаются как текст, и между ними отсуп прмиерно 4 px */
+}
+.tabs nav div
+{
+    display: inline-block;
+    margin-right: -4px;
+    height: 40px;
+    width: 184px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+.tabs nav div a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.tabs nav div:first-of-type
+{
+    border: 1px solid #C6CBCD;
+    border-bottom-color: #fff;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: -1px;
+}

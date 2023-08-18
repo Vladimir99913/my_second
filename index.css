@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
+
+.about
+{
+    height: 100vh;
+}
+.about_header
+{
+    height: 150px;
+    /* border: 1px solid red; */
+    text-align: center;
+    line-height: 150px;    /* выравнивание по вертикали в заголовке */
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    /* sans-serif если не будет шрифта "Raleway", то подберется похожий шрифт без засечек */
+}
+/*#about_header
+ индефикатор id сильнее class 
+{
+    font-style: italic;
+}*/
+.about section
+{
+    width: fit-content;
+    margin: auto;
+}
+.about_separ
+{
+    width: 170px;
+    margin: auto;  /* выравнивает элемент внутри родителя по центру */
+    border:1px solid #EC7979;
+}
+.about_div
+{
+    width: 170px;
+    margin: auto;  /* выравнивает элемент внутри родителя по центру */
+    border:.5px solid #EC7979;
+}
+.about_subheader
+{
+    font-size:18px;
+    text-align: center;
+    color: #86878B;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 40px 0 70px 0;
+}
+.about_article
+{
+    /* border: 1px solid black; */
+    width: 370px;
+    display: inline-block; /* превратили блочный элемент в строчный */
+    padding: 16px;
+    /* text-align: center; */
+    /* margin-left: 9%; */
+    margin-right: -4px;
+}
+.about_article img
+{
+    display: block;
+    margin: auto;
+}
+.about_article_header
+{
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 100px; /* выравнивание текста по вертикали, должен равняться height */
+    /* text-transform: capitalize; */
+    font-family: "Raleway", sans-serif;
+}
+.about_article_paragraph
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+
+}
+/* .about_article .about_article_header
+{
+    если селектор написан через пробел, то класс который правее лежит в классе который левее
+     у классов и индефикаторов рызные веса
+}
+ */
+
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+} */
+.container
+{
+    max-width: ;
+    min-height: ;
+    overflow: auto
+}
+/* div:first-of-type
+{
+
+} */
