@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap');
+footer{
+    height: 164px;
+    width: 1510px;
+    margin: auto;
+    background-color:#000000;
+}
+h5{
+    height: 21px;
+    color:#FFFFFF80;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+.footer_img{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 27px;
+}

@@ -7,20 +7,82 @@
 <link rel="stylesheet" href="./index.css">
 <link rel="stylesheet" href="./tabs.css">
 <link rel="stylesheet" href="./price.css">
+<link rel="stylesheet" href="./reviews.css">
+<link rel="stylesheet" href="./banner2.css">
+<link rel="stylesheet" href="./contact.css">
+<link rel="stylesheet" href="./footer.css">
+<link rel="stylesheet" href="./header.css">
+<link rel="stylesheet" href="./banner.css">
+<link rel="stylesheet" href="./social.css">
     <title>Document</title>
 </head>
 <body>
+
+    <header>
+        <div class="logo">
+        <img src="./img/AX.png" alt="">
+        <img src="./img/AT.png" alt="">
+        </div>
+        <nav>
+            <ul>
+               <li>Features</li>
+               <li>About</li>
+               <li>Pricing</li>
+               <li>Reviews</li>
+               <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="banner">
+        <section>
+            <div>
+            <div class="banner_logo">
+            <img src="./img/AX.png" alt="">
+            <img src="./img/AT.png" alt="">
+            </div>
+            <h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+            <div class="banner_div"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+            </div>
+            <div>
+            <form class="banner_form" action="#">
+                <h4>Try Your <span class="span">FREE</span> Trial Today</h4>
+                <input type="text" placeholder="Name" name="" value=""> 
+                <input type="text" placeholder="Email" name="" value="">
+                <input type="text" placeholder="Password" name="" value="">
+                <button class="banner_form_button">Get Started</button>
+            </form>
+            </div>
+        </section>
+        <button class="banner_button">Download</button>
+        <div class="banner_fon">
+        </div>
+    </main>
+
+    <main class="social">
+        <section class="social_section">
+        <div class="social_section_text">
+        <h4>Social Media</h4>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Aenean euismod bibendum laoreet.</h5>
+        </div>
+            <div class="social_img">
+            <img src="./img/facebook_icon.png" alt="">
+            <img src="./img/twitter_icon.png" alt="">
+            <img src="./img/linkedin_icon.png" alt="">
+            <img src="./img/pinterest_icon.png" alt="">
+            <img src="./img/instagram_icon.png" alt="">
+            <img src="./img/github_icon.png" alt="">
+            <img src="./img/rss_icon.png" alt="">
+            </div>
+        </section>
+    </main>
+
     <main class="tabs">
         <nav>
-            <div>
-                <a href="#">Tab 1</a>
-            </div>
-            <div>
-                <a href="#">Tab 2</a>
-            </div>
-            <div>
-                <a href="#">Tab 3</a>
-            </div>
+            <div><a href="#">Tab 1</a></div>
+            <div><a href="#">Tab 2</a></div>
+            <div><a href="#">Tab 3</a></div>
         </nav>
         <article class="tabs__article">
             <section>
@@ -34,8 +96,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br/>
                 bibendum laoreet. 
             </h5>
-            <button>Download</button>
-        </section>
+            <button class="tabs_button">Download</button>
+            </section>
             <img src="./img/Rectangle 111.png" alt="Image">
         </article>
     </main>
@@ -112,6 +174,75 @@
             </section>     
       </section>
     </main>
+    
+    <main class="reviews">
+        <h2 class="reviews_header"> What our customers are saying</h2>
+        <div class="reviews_div"></div>
+        <h5 class="reviews_subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5> 
+        <section class="reviews_section">
+            <article>
+                <h5>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque<br> quo suscipit.</h5>
+                <svg class="arrow"></svg>
+                <img src="./img/Ellipse 1.png">
+                <h4>Davis Rhiel Madsen</h4>
+                <h5>Manager</h5>
+            </article>
+            <article>
+                <h5>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque<br> quo suscipit.</h5>
+                <svg class="arrow"></svg>
+                <img src="./img/Ellipse 2.png">
+                <h4>Jaydon Rosser</h4>
+                <h5>Manager</h5>              
+            </article>
+            <article>
+                <h5>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque<br> quo suscipit.</h5>
+                <svg class="arrow"></svg>              
+                <img src="./img/Ellipse 3.png">
+                <h4>Cooper Dorwart</h4>
+                <h5>Manager</h5>            
+            </article>
+        </section>
+    </main>
+
+    <main class="banner2">
+        <h2 class="banner2_header">STYLISH AXURE DESIGN</h2>
+        <div class="banner2_div"></div>
+        <h5 class="banner2_subheader">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever! </h5> 
+        <button class="banner2_button">Download</button>
+        <div class="banner2_fon"></div>
+    </main>
+
+    <main class="contact">
+        <h2 class="contact_header">contact us</h2>
+        <div class="contact_div"></div>
+        <h5 class="contact_subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5> 
+        <form class="contact_form" action="#">
+            <div class="contact_form_form1">
+            <input type="text" placeholder="Name" name="" value=""> 
+            <br>
+            <input type="text" placeholder="Email" name="" value="">
+            <br>
+            <input type="text" placeholder="Password" name="" value="">
+            </div>
+            <div class="contact_form_form2">
+                <textarea placeholder="Message" name="" value="Message"></textarea>
+            </div>
+        </form>
+        <button class="contact_button">Send Message</button>
+    </main> 
+
+    <footer>
+        <div class="footer_img">
+        <img src="./img/facebook_icon.png" alt="">
+        <img src="./img/twitter_icon.png" alt="">
+        <img src="./img/linkedin_icon.png" alt="">
+        <img src="./img/pinterest_icon.png" alt="">
+        <img src="./img/instagram_icon.png" alt="">
+        <img src="./img/github_icon.png" alt="">
+        <img src="./img/rss_icon.png" alt="">
+        </div>
+        <h5>© 2015 Axure Themes</h5>
+    </footer>
 </body>
 </html>
 <!-- fnc -->

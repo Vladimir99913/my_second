@@ -2,7 +2,10 @@
 
 .about
 {
-    height: 100vh;
+    width: 1170px;
+    height: 665px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 .about_header
 {

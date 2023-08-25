@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap');
+.social{
+    width: 1510px;
+    height: 140px;
+    margin: auto;
+    background-color:#F8EFEF;
+    margin-bottom: 100px;
+}
+.social_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social h4{
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    color:#333333;
+    margin-left: 170px;
+    margin-bottom: 18px;
+}
+.social h5{
+    height: 42px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    color:#86878B;
+    margin-left: 170px;
+    text-align: left;
+}
+.social_img{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: flex-end;
+   padding-right: 0;
+    margin: 35px 140px 35px 30px;
+}
