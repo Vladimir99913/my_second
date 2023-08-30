@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap');
-*{
-    margin:0;
-    padding: 0;
-    box-sizing:border-box;
-}
-.price
-{
+.price{
     /* height: 900px;*/
     width: 1170px;
     margin: auto; 
@@ -16,36 +8,29 @@
     padding-top: 50px;
     
 }
-.price__header
-{
+.price__header{
     height: 150px;
-    /* border: 1px solid red; */
     text-align: center;
-    line-height: 150px;    /* выравнивание по вертикали в заголовке */
+    line-height: 150px; 
     text-transform: uppercase;
     font-size: 36px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    /* sans-serif если не будет шрифта "Raleway", то подберется похожий шрифт без засечек */
 }
-.price__div
-{
+.price__div{
     width: 170px;
-    margin: auto;  /* выравнивает элемент внутри родителя по центру */
+    margin: auto; 
     border:.5px solid #EC7979;
 }
-.price__subheader
-{
+.price__subheader{
     font-size:18px;
     text-align: center;
     color: #86878B;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     margin: 40px;
-
 }
-.price__sections
-{
+.price__sections{
     height: 530px;
     width: 1170px;
     /* подстроить ширину под содержимое */
@@ -54,17 +39,14 @@
     display: flex;
     justify-content: space-between;
 }
-.price__sections section
-{
-    
+.price__sections section{
     width: 370px;
     /* display: inline-block;
     margin-right: -4px;
     vertical-align: top; */
     /* padding: 16px; */
 }
-.price__sections section h4
-{
+.price__sections section h4{
     height: 60px;
     line-height: 60px;
     background-color:#333333;
@@ -76,8 +58,7 @@
     border: 2px solid #F5F5F5;
 }
 
-.price__sections section h3
-{
+.price__sections section h3{
     height: 100px;
     line-height: 100px;
     background-color:#333333;
@@ -88,8 +69,7 @@
     text-align: center;
     border: 2px solid #F5F5F5;
 }
-.price__sections section h5
-{
+.price__sections section h5{
     height: 50px;
     line-height: 50px;
     background-color:#FFFFFF;
@@ -100,14 +80,13 @@
     text-align: center;
     border: 2px solid #F5F5F5;
 }
-.price__sections section h5:first-of-type
-{
+.price__sections section h5:first-of-type{
     background-color:#333333;
 }
-.price__sections section:not(:nth-of-type(2))
-{
+.price__sections section:not(:nth-of-type(2)){
     margin-top: 20px ;
 }
+
 /* .price__sections section:nth-of-type(2)
 {
     margin: 0 30px;

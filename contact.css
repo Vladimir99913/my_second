@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap');
 .contact
 {
     margin: auto;
@@ -7,22 +5,22 @@
     height: 622px;
     margin-bottom: 50px;
 }
-.contact_header{
+.contact__header{
     height: 150px;
     text-align: center;
-    line-height: 150px;    /* выравнивание по вертикали в заголовке */
+    line-height: 150px;  
     text-transform: uppercase;
     font-size: 36px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color:#000000;
 }
-.contact_div{
+.contact__div{
     width: 170px;
-    margin: auto;  /* выравнивает элемент внутри родителя по центру */
+    margin: auto;  
     border:.5px solid #EC7979;
 }
-.contact_subheader{
+.contact__subheader{
     font-size:18px;
     text-align: center;
     color: #86878B;
@@ -30,11 +28,10 @@
     font-weight: 400;
     margin: 40px 0 89px 0;
 }
-.contact_form{
+.contact__form{
     display: flex;
-    
 }
-.contact_form_form1 input[type="text"]{
+.contact input[type="text"]{
     width: 571px;
     height: 38px;
     border:1px solid #FFFFFF;
@@ -45,10 +42,10 @@
     font-family: 'Open Sans';
     color:#BDBDBD;
 }
-.contact_form_form1{
+.contact__form div{
     margin-right: 30px;
 }
-.contact_form_form2 textarea{
+.contact textarea{
     width: 571px;
     height: 214px;
     border:1px solid #FFFFFF;
@@ -60,7 +57,7 @@
     color:#BDBDBD;
     resize: none;
 }
-.contact_button{
+.contact button{
     height: 58px;
     width: 370px;
     background-color: #EC7979;
@@ -73,4 +70,8 @@
     cursor: pointer;
     display: block;
     margin: auto;
+}
+.contact button:hover{
+    background-color:#AB4949;
+    transition-duration: 1s;
 }

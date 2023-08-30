@@ -1,46 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap');
-.banner2
-{
+.banner2{
     margin: auto;
     width: 1510px;
     height: 442px;
     background-image:url(./img/image.png);
-    /* background-size: 100%; */
     padding-top: 50px;
     margin-bottom: 50px;
     position: relative;
     z-index: 1;
 }
-.banner2_fon{
-    
+.banner2__fon{
     width: 1510px;
     height: 442px;
-    /* display: flex;
-    justify-content: center;
-    background-size:cover; */
     top:0;
     position: absolute;
     z-index: -1;
     background-color: rgba(0,0,0,0.5);
-
 }
-.banner2_header{
+.banner2__header{
     height: 150px;
     text-align: center;
-    line-height: 150px;    /* выравнивание по вертикали в заголовке */
+    line-height: 150px;    
     text-transform: uppercase;
     font-size: 36px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color:#FFFFFF;
 }
-.banner2_div{
+.banner2__div{
     width: 170px;
-    margin: auto;  /* выравнивает элемент внутри родителя по центру */
+    margin: auto; 
     border:.5px solid #FFFFFF;
 }
-.banner2_subheader{
+.banner2__subheader{
     font-size:18px;
     text-align: center;
     color: #FFFFFF;
@@ -61,3 +52,9 @@
     margin: auto;
     display:block;
 }
+.banner2 button:hover{
+    color:#EC7979;
+    border:2px solid #EC7979;
+    transition-duration: 1s;
+}
+

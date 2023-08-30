@@ -1,36 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap');
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing:border-box;
-} */
-.tabs
-{
+.tabs{
     /* width: max-content;
     margin: calc((100vh - 542.4px) /2) auto 0; */
     width: 1170px;
     height: 540px;
     margin: auto;
 }
-.tabs__article
-{
+.tabs__article{
     /* width: 1170px;
     width: max-content; */
     display: flex;
     justify-content: space-between;
     border: 1px solid #C6CBCD;
 }
-.tabs__article section
-{
+.tabs__article section{
     /* display: inline-block; */
     width: 570px;
     margin-left: 100px;
     /* border: 1px solid #F00; */
 }
-
-.tabs__article h3
-{
+.tabs__article h3{
     height: 124px;
     line-height: 124px;
     font-size: 30px;
@@ -39,8 +27,7 @@
     margin-bottom: 27px;
     color:#000000;
 }
-.tabs__article h5
-{
+.tabs__article h5{
     height: 210px;
     line-height: 21.13px;
     font-size: 18px;
@@ -50,20 +37,23 @@
     color:#000000;
     text-align: left;
 }
-.tabs_button
-{
+.tabs__button{
     height: 58px;
     width: 270px;
     background-color: #EC7979;
     color:#fff;
     font-size: 18px;
+    font-weight: 600;
     font-family: 'Open Sans';
     text-align: center;
     border:none;
     cursor: pointer;
 }
-.tabs img
-{
+.tabs__button:hover{
+    background-color:#AB4949;
+    transition-duration: 1s;
+}
+.tabs img{
     /* vertical-align: top; */
     margin-right: -4px;
     margin-left: 30px;
@@ -72,8 +62,7 @@
 nav{
     display: flex;
 }
-.tabs nav div
-{
+.tabs nav div{
     /* display: inline-block;
     margin-right: -4px; */
     height: 40px;
@@ -82,8 +71,7 @@ nav{
     line-height: 40px;
 }
 
-.tabs nav div a
-{
+.tabs nav div a{
     text-transform: uppercase;
     text-decoration: none;
     color:#333;
@@ -91,8 +79,7 @@ nav{
     font-weight: 400;
     font-size: 14px;
 }
-.tabs nav div:first-of-type
-{
+.tabs nav div:first-of-type{
     border: 1px solid #C6CBCD;
     border-bottom-color: #fff;
     border-radius: 5px 5px 0 0;
