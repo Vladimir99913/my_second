@@ -1,39 +1,89 @@
-.social{
-    width: 1510px;
-    height: 140px;
-    margin: auto;
-    background-color:#F8EFEF;
-    margin-bottom: 100px;
+.social {
+  width: 100%;
+  height: 140px;
+  background-color: #f8efef;
+  display: flex;
+  justify-content: center;
 }
-.social section{
-    display: flex;
-    justify-content: space-between;
+.social__subcontainer {
+  width: 1170px;
+  display: flex;
+  flex-direction: space-between;
+}
+.social h4 {
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  margin-bottom: 18px;
+}
+.social h5 {
+  height: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: #86878b;
+  text-align: left;
+}
+.social__img {
+  display: flex;
+}
+.social__img img {
+  height: 70px;
+  width: 70px;
+  margin: 35px 0 35px 30px;
 }
 
-.social h4{
-    height: 60px;
-    line-height: 60px;
-    font-size: 24px;
-    font-weight: 700;
-    font-family: 'Open Sans';
-    color:#333333;
-    margin-left: 170px;
-    margin-bottom: 18px;
-}
-.social h5{
-    height: 42px;
+@media screen and (max-width: 1024px) {
+  .social__subcontainer {
+    width: 992px;
+  }
+  .social h4 {
+    height: 45px;
+    line-height: 45px;
     font-size: 18px;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-    color:#86878B;
-    margin-left: 170px;
-    text-align: left;
+    margin-bottom: 13px;
+  }
+  .social h5 {
+    width: 400px;
+    height: 32px;
+    line-height: 16.44px;
+    font-size: 14px;
+  }
+  .social__img img {
+    height: 50px;
+    width: 30px;
+    margin: 30px 20px 15px;
+  }
 }
-.social__img{
-    height: 70px;
-    width: 70px;
-    display: flex;
-    justify-content: flex-end;
-   padding-right: 0;
-    margin: 35px 140px 35px 30px;
+
+@media screen and (max-width: 320px) {
+  .social {
+    height: 240px;
+  }
+  .social__subcontainer {
+    width: 288px;
+    flex-wrap: wrap;
+  }
+  .social h4 {
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    margin: 30px 16px 13px;
+    text-align: center;
+  }
+  .social h5 {
+    height: 50px;
+    width: 280px;
+    line-height: 16.44px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .social__img img {
+    height: 25px;
+    width: 25px;
+    margin: 30px 17px 45px 0;
+  }
 }

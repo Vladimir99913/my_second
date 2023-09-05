@@ -1,20 +1,21 @@
-footer{
-    height: 164px;
-    width: 1510px;
-    margin: auto;
-    background-color:#000000;
+footer {
+  width: 100%;
+  background-color: #000;
 }
-h5{
-    height: 21px;
-    color:#FFFFFF80;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-    text-align: center;
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
 }
-.footer__img{
-    display: flex;
-    justify-content: center;
-    padding-top: 35px;
-    padding-bottom: 27px;
+footer h5 {
+  height: 20px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-bottom: 25px;
 }

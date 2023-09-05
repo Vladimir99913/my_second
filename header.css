@@ -1,44 +1,100 @@
-header{
-    width: 1510px;
-    height: 75px;
-    background-color:#000000;
+header {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+.subcontainer {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav {
+  width: 570px;
+  display: flex;
+}
+header nav button {
+  height: 75px;
+  line-height: 75px;
+  width: 115px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+header nav button:hover {
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #ec7979;
+  transition: all 1s ease 0s;
+}
+header nav button:active {
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #ab4949;
+}
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .subcontainer {
+    width: 992px;
+  }
+  header nav {
+    width: 566px;
+  }
+  header nav button {
+    width: 113px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .subcontainer {
+    width: 600px;
+  }
+  header nav {
+    width: 366px;
+  }
+  header nav button {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  .fa-bars {
+    color: #fff;
+    display: block;
     position: absolute;
-    left:50%;
-    margin-left: -755px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 2;
+    right: 10px;
+    top: 15px;
+  }
 }
-.header__logo{
-    width: 183px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin-left: 115.28px;
-}
-.header__logo img{
-    height: 30.69px;
-    width: 51.81px;
-    margin-right: 0;
-}
-.header__logo img:nth-of-type(2){
-    width: 32.17px;
-}
-header nav{
-    width: 570px;
-    margin-right: 170px;
-}
-ul{
-    display: flex;
-}
-ul li{
-    height: 75px;
-    line-height: 75px;;
-    width: 113.8px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Open Sans';
-    text-align: center;
-    color:#FFFFFF;
-    list-style-type: none;
+
+@media screen and (max-width: 320px) {
+  .subcontainer {
+    width: 288px;
+  }
+  header img {
+    width: 130px;
+    height: 55px;
+  }
+  header nav {
+    width: 55px;
+  }
+  header nav button {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  .fa-bars {
+    color: #fff;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
 }

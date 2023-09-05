@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,700;1,500&display=swap");
 
-@import url('about.css');
-@import url('banner.css');
-@import url('banner2.css');
-@import url('contact.css');
-@import url('footer.css');
-@import url('header.css');
-@import url('price.css');
-@import url('reviews.css');
-@import url('social.css');
-@import url('tabs.css');
+@import url("about.css");
+@import url("banner.css");
+@import url("banner2.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url("header.css");
+@import url("price.css");
+@import url("reviews.css");
+@import url("social.css");
+@import url("tabs.css");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing:border-box;
-    outline: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
 }
