@@ -79,10 +79,15 @@ nav {
 }
 .tabs nav div:first-of-type {
   border: 1px solid #c6cbcd;
-  border-bottom-color: #fff;
-  border-radius: 5px 5px 0 0;
   position: relative;
-  bottom: -1px;
+}
+.tabs nav div:first-of-type::before {
+  content: "";
+  position: absolute;
+  width: 182.5px;
+  border-bottom: 4px solid #fff;
+  top: 38px;
+  left: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -104,18 +109,21 @@ nav {
     line-height: 16.44px;
     font-size: 14px;
     margin-bottom: 40px;
+    white-space: nowrap;
   }
   .tabs button {
     width: 230px;
   }
   .tabs img {
-    margin-right: -4px;
-    margin-left: 30px;
-    width: 400px;
+    margin-left: 0;
+    width: 370px;
     height: 385px;
   }
   .tabs nav div {
     width: 172px;
+  }
+  .tabs nav div:first-of-type::before {
+    width: 170.5px;
   }
 }
 
@@ -138,15 +146,17 @@ nav {
     font-size: 18px;
     margin-bottom: 30px;
     text-align: center;
-    padding: 30px 0;
+    display: flex;
+    align-items: center;
   }
   .tabs__article h5 {
     height: 180px;
+    width: 243px;
     line-height: 15.26px;
     font-size: 13px;
     margin-bottom: 30px;
     text-align: center;
-    vertical-align: middle;
+    white-space: normal;
   }
   .tabs button {
     height: 50px;
@@ -161,5 +171,9 @@ nav {
   }
   .tabs nav div {
     width: 90px;
+  }
+  .tabs nav div:first-of-type::before {
+    width: 88.5px;
+    top: 37px;
   }
 }
