@@ -12,6 +12,8 @@
 }
 .banner__subcontainer {
   width: 1170px;
+  display: flex;
+  justify-content: space-between;
 }
 .banner__fon {
   height: 950px;
@@ -20,11 +22,6 @@
   position: absolute;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.5);
-}
-.banner section {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 .banner h1 {
   line-height: 56.35px;
@@ -55,7 +52,6 @@
   width: 470px;
   background-color: #fff;
   border-radius: 10px;
-  margin-left: 30px;
 }
 .banner h4 {
   height: 90px;
@@ -83,7 +79,7 @@
   border-bottom: 1px solid #bdbdbd;
   margin: 0 0 35px 50px;
 }
-.banner__form__button {
+.banner .banner__form button {
   height: 60px;
   width: 470px;
   background-color: #ec7979;
@@ -98,15 +94,15 @@
   border: #ec7979;
   cursor: pointer;
 }
-.banner__form__button:hover {
+.banner .banner__form button:hover {
   background-color: #ab4949;
   transition-duration: 1s;
 }
-.banner__form__button:active {
+.banner .banner__form button:active {
   background-color: #ec7979;
   box-shadow: inset 0 0 10px 0 #ab4949;
 }
-.banner__button {
+.banner button {
   height: 60px;
   width: 270px;
   border: 2px solid #fff;
@@ -117,12 +113,12 @@
   background-color: transparent;
   cursor: pointer;
 }
-.banner__button:hover {
+.banner button:hover {
   color: #ec7979;
   border: 2px solid #ec7979;
   transition-duration: 1s;
 }
-.banner__button:active {
+.banner button:active {
   background-color: #ab4949;
   border: 2px solid #ab4949;
   color: #fff;
@@ -166,10 +162,10 @@
     height: 45px;
     font-size: 14px;
   }
-  .banner__form__button {
+  .banner .banner__form button {
     width: 400px;
   }
-  .banner__button {
+  .banner button {
     height: 50px;
     width: 180px;
   }
@@ -182,12 +178,10 @@
   }
   .banner__subcontainer {
     width: 288px;
+    flex-direction: column;
   }
   .banner__fon {
     height: 950px;
-  }
-  .banner section {
-    flex-direction: column;
   }
   .banner img {
     display: none;
@@ -219,10 +213,10 @@
     font-size: 14px;
     margin-left: 20px;
   }
-  .banner__form__button {
+  .banner .banner__form button {
     width: 288px;
   }
-  .banner__button {
+  .banner button {
     width: 288px;
     margin-bottom: 45px;
   }
